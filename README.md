@@ -72,6 +72,7 @@ git remote -v #查看远程仓库
 git push reponame branchname #将branchname向远端推送 --all 推送所有分支
 git fetch reponame branchname #拉取reponame的branchname分支
 git merge reponame/branchname #合并分支, 新创建一个commit为两个分支的儿子
+git pull = git fetch + git merge
 ~~~
 
 
