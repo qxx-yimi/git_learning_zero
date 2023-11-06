@@ -46,7 +46,7 @@ git branch newbranch #创建分支
 git branch -d branchname #删除分支
 git branch -m oldname newname #修改分支名字
 git checkout branchname #切换分支
-git checkout -b branchname #创建并切换到新的分支
+git checkout -b branchname basecommit #创建并切换到新的分支
 
 gitk #通过图形界面来展示版本历史
 gitk --all #显示所有分支的版本历史
